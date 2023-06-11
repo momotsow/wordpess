@@ -7,4 +7,13 @@
     <?php wp_head(); ?>
 </head>
 <body>
-    <h1>Header</h1>
+    <header>
+    <nav>
+		<ul>
+		  <li class="nav-list science"><a href="#" class="nav-icon "> Science</a></li>
+		  <li class="nav-list technology"><a href="#" class="nav-icon "> Technology</a></li>
+		  <li class="nav-list engineering"><a href="#" class="nav-icon "> Engineering</a></li>
+		  <li class="nav-list mathematics"><a href="#" class="nav-icon "> Mathematics</a></li>
+		</ul>
+	</nav>
+    </header>

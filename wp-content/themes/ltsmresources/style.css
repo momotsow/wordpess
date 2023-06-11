@@ -4,6 +4,114 @@
  Version: 1.0
 */
 
-body {
-    color: red;
-}
+nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+nav ul li {
+    margin: 0 10px;
+  }
+
+  .nav-list {
+    background-color: #dee7f4;
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    top: 218px;
+    left: 514px;
+
+  }
+  
+  .nav-list a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  
+  .nav-icon {
+    width: 59px;
+    height: auto;
+    /* top: 238px;
+    left: 535px; */
+  }
+
+   .science {
+    background-image: url(images/calculator.png);
+  }
+
+ .technology {
+    background-image: url(images/beaker.png);
+  }
+
+  .engineering {
+    background-image: url(images/beaker.png);
+  }
+
+  .mathematics {
+    background-image: url(images/calculator.png);
+  }
+  
+  .banner {
+    /* background-image: url(images/banner.png); */
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-color: #dee7f4;
+  }
+  
+  .banner img  {
+    height: 600px;
+  }
+  
+  .card-list {
+    display: flex;
+    /* flex-wrap: no-wrap; */
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .card-button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background-color 0.2s;
+  }
+  
+  .card-button:hover {
+    background-color: #0069d9;
+    cursor: pointer;
+  }
+  
