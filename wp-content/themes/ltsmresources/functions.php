@@ -7,4 +7,8 @@ function ltsm_resources_files() {
 
 add_action('wp_enqueue_scripts', 'ltsm_resources_files');
 
-?>
+function resources_feature() {
+    add_theme_support('title-tag');
+}
+
+add_action('after_setup_theme', 'resources_feature');
