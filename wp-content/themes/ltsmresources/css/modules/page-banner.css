@@ -1,9 +1,9 @@
 .page-banner {
   background-color: #000;
-  padding: 80px 0 40px 0;
-  position: relative;
+  /* padding: 80px 0 40px 0; */
+  /* position: relative; */
   @mixin atSmall {
-    padding: 130px 0 60px 0;
+    /* padding: 130px 0 60px 0; */
   }
 
   &__content {
@@ -23,9 +23,9 @@
   }
 
   &__bg-image {
-    opacity: .33;
+    opacity: 0;
     background-size: cover;
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     bottom: 0;
     left: 0;
@@ -45,4 +45,15 @@
   &__intro p {
     margin: 0;
   }
+}
+
+/* banner */
+.banner {
+  width: 100%;
+  text-align: center;
+  background-color: #dee7f4;
+}
+
+.banner img  {
+  height: 600px;
 }

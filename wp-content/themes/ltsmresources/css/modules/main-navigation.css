@@ -34,7 +34,7 @@
 .main-navigation a {
   display: block;
   padding: 10px 20px;
-  color: #FFF;
+  color: #000;
   text-decoration: none;
   font-weight: 300;
   @mixin atMedium {

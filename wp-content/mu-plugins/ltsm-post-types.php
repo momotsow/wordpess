@@ -1,9 +1,9 @@
 <?php
 
 function ltsm_post_types() {
+  // Event Post type => Jokes
   register_post_type('event', array(
-    'show_in_rest' => true,
-    'supports' => array('title', 'editor', 'excerpt'),
+    'supports' => array('title', 'editor', 'excerpt', 'thumbnail'),
     'rewrite' => array('slug' => 'events'),
     'has_archive' => true,
     'public' => true,
@@ -14,37 +14,38 @@ function ltsm_post_types() {
       'all_items' => 'All Events',
       'singular_name' => 'Event'
     ),
-    'menu_icon' => 'dashicons-calendar'
+    'menu_icon' => 'dashicons-art'
   ));
 
-  //Program
-    register_post_type('program', array(
+  //Program => Lesson
+    register_post_type('lesson', array(
       'show_in_rest' => true,
       'supports' => array('title', 'editor', 'thumbnail'),
-      'rewrite' => array('slug' => 'programs'),
+      'rewrite' => array('slug' => 'lessons'),
       'has_archive' => true,
       'public' => true,
       'labels' => array(
-        'name' => 'Programs',
-        'add_new_item' => 'Add New Program',
-        'edit_item' => 'Edit Program',
-        'all_items' => 'All Programs',
-        'singular_name' => 'Program'
+        'name' => 'Lessons',
+        'add_new_item' => 'Add New Lesson',
+        'edit_item' => 'Edit Lesson',
+        'all_items' => 'All Lessons',
+        'singular_name' => 'Lesson'
       ),
       'menu_icon' => 'dashicons-awards'
     ));
 
-     // Professor Post Type
-    register_post_type('professor', array(
+     // Professor Post Type => Grade
+    register_post_type('grade', array(
       'show_in_rest' => true,
       'supports' => array('title', 'editor', 'thumbnail'),
+      'has_archive' => true,
       'public' => true,
       'labels' => array(
-        'name' => 'Professors',
-        'add_new_item' => 'Add New Professor',
-        'edit_item' => 'Edit Professor',
-        'all_items' => 'All Professors',
-        'singular_name' => 'Professor'
+        'name' => 'Grade',
+        'add_new_item' => 'Add New Grade',
+        'edit_item' => 'Edit Grade',
+        'all_items' => 'All Grades',
+        'singular_name' => 'Grade'
       ),
       'menu_icon' => 'dashicons-welcome-learn-more'
     ));
