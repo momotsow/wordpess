@@ -36,7 +36,7 @@
   <?php 
 
           $homepageGrades = new WP_Query(array(
-            'posts_per_page' => 4,
+            'posts_per_page' => 50,
             'post_type' => 'grade'
           ));
 
@@ -65,7 +65,7 @@
   <?php 
 
           $homepageLessons = new WP_Query(array(
-            'posts_per_page' => 4,
+            'posts_per_page' => 50,
             'post_type' => 'lesson'
           ));
 
