@@ -1,7 +1,7 @@
 <?php
 
 function ltsm_resources_files() {
-    wp_enqueue_script('ltsm_resources_js', get_theme_file_uri('/js/scripts-bundled.js'), NULL, '1.0', true);
+    wp_enqueue_script('main-ltsm-js', get_theme_file_uri('/js/scripts-bundled.js'), NULL, '1.0', true);
     wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
     wp_enqueue_style('ltsm_resources_styles', get_stylesheet_uri());
     wp_enqueue_style('ltsm_resources_extra_styles', get_theme_file_uri('/build/index.css'));

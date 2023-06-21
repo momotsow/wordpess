@@ -20,7 +20,7 @@ while (have_posts()) {
 
     <?php
 
-    $relatedLessons = get_field('related_programs');
+    $relatedLessons = get_field('related_program');
 
     if ($relatedLessons) {
       echo '<hr class="section-break">';

@@ -26,7 +26,7 @@ get_header(); ?>
 <div>
   <p>less grad</p>
   <?php
-     $relatedLessons = get_field('related_programs');
+     $relatedLessons = get_field('related_program');
       
      if ($relatedLessons) {
        echo '<hr class="section-break">';
