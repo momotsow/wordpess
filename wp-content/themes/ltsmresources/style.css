@@ -939,7 +939,7 @@ p, li {
 
 .search-trigger {
   display: none;
-  color: #FFF;
+  color: #000;
   position: relative;
   cursor: pointer;
   top: 1px;
@@ -1946,7 +1946,7 @@ body.admin-bar .search-overlay {
 .search-overlay__icon {
   margin-right: 10px;
   font-size: 1.8rem;
-  color: #F95738;
+  color: #EF5350;
 }
 
 @media (min-width: 960px) {
@@ -1980,7 +1980,7 @@ body.admin-bar .search-overlay {
   cursor: pointer;
   transition: all .3s;
   background-color: #FFF;
-  color: #F95738;
+  color: #EF5350;
   line-height: .7;
 }
 

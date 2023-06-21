@@ -23,10 +23,10 @@ get_header(); ?>
 ?>
 </ul>
 
-
-
 </div>
-
+<div>
+  <p>dfhgj</p>
+</div>
 <?php get_footer();
 
 ?>

@@ -33,7 +33,7 @@
           'order' => 'ASC',
           'meta_query' => array(
             array(
-              'key' => 'related_lessons',
+              'key' => 'related_programs',
               'compare' => 'LIKE',
               'value' => '"' . get_the_ID() . '"'
             )
@@ -74,7 +74,7 @@
               'type' => 'numeric'
             ),
             array(
-              'key' => 'related_lessons',
+              'key' => 'related_programs',
               'compare' => 'LIKE',
               'value' => '"' . get_the_ID() . '"'
             )

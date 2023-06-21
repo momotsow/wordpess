@@ -38,10 +38,11 @@ function ltsm_post_types() {
     register_post_type('grade', array(
       'show_in_rest' => true,
       'supports' => array('title', 'editor', 'thumbnail'),
+      'rewrite' => array('slug' => 'grades'),
       'has_archive' => true,
       'public' => true,
       'labels' => array(
-        'name' => 'Grade',
+        'name' => 'Grades',
         'add_new_item' => 'Add New Grade',
         'edit_item' => 'Edit Grade',
         'all_items' => 'All Grades',

@@ -26,11 +26,10 @@
       </div>
 
       <?php
-        $relatedLessons = get_field('related_lessons');
+        $relatedLessons = get_field('related_programs');
       
         if ($relatedLessons) {
           echo '<hr class="section-break">';
-          echo '<h2 class="headline headline--medium">Subject(s) Taught</h2>';
           echo '<ul class="link-list min-list">';
           foreach($relatedLessons as $lesson) { ?>
             <li><a href="<?php echo get_the_permalink($lesson); ?>"><?php echo get_the_title($lesson); ?></a></li>
@@ -41,8 +40,6 @@
       ?>
 
     </div>
-    
-
     
   <?php }
 
