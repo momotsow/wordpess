@@ -1,3 +1,5 @@
+alert("Hello from app.js");
+console.log("Hello from app.js");
 // 3rd party packages from NPM
 import $ from 'jquery';
 import slick from 'slick-carousel';
@@ -12,3 +14,4 @@ import Search from './modules/Search';
 var mobileMenu = new MobileMenu();
 var heroSlider = new HeroSlider();
 var search = new Search();
+
